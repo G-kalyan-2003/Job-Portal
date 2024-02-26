@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Job Portal</title>
+    <link rel="stylesheet" href="Day15 job portal.css">
+</head>
+<body>
+    <header>
+        <h1>Online Job Portal</h1>
+        <form id="searchForm">
+            <input type="text" id="roleInput" placeholder="Role">
+            <input type="text" id="locationInput" placeholder="Location">
+            <select id="categorySelect">
+                <option value="">All Categories</option>
+                <option value="IT">IT</option>
+                <option value="Finance">Finance</option>
+                <option value="Marketing">Marketing</option>
+                <!-- Add more categories as needed -->
+            </select>
+            <button type="submit">Search</button>
+        </form>
+    </header>
+
+    <div id="jobListings">
+        <!-- Job listings will be dynamically populated here -->
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Online Job Portal. All rights reserved.</p>
+    </footer>
+
+    <script src="Day15 job portal.js"></script>
+</body>
+</html>
